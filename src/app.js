@@ -10,7 +10,7 @@ const { errorHandler } = require("./middlewares/errorHandler");
 
 dotenv.config();
 const {
-  PORT = 3000,
+  PORT = 3005,
   API_URL = "http://localhost",
   DB_HOST = "localhost",
   DB_PORT = 27017,
